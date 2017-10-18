@@ -2750,6 +2750,14 @@ ul.social li {
     min-width: 250px;
     max-width: 310px
 }
+.widget_registration{
+    min-width: 640px;
+    max-width: 800px
+}
+.widget_register{
+    min-width:310px;
+    max-width:320px
+}
 .widget_tally_box .btn-group button {
     text-align: center
 }
@@ -2838,7 +2846,7 @@ ul.widget_profile_box li .profile_img {
 }
 .widget_tally_box .name {
     text-align: center;
-    margin: 25px
+    margin: 25px 0px
 }
 .widget_tally_box .name_title {
     text-align: center;
