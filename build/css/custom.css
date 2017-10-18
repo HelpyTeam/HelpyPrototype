@@ -2758,6 +2758,10 @@ ul.social li {
     min-width:310px;
     max-width:320px
 }
+.widget_request{
+    min-width:800px;
+    max-width:900px
+}
 .widget_tally_box .btn-group button {
     text-align: center
 }
@@ -4246,4 +4250,12 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
 
 .dataTables_wrapper > .row{
   overflow:auto !important; /*prevent datatables overflowing its container*/
+}
+.topic_select_assign{
+    padding-top: 45px;
+    display: none;
+}
+.requesters_list_assign{
+    margin-top: 30px;
+    display: none;
 }
