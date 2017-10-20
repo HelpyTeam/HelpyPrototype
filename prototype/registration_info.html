@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Registrations List | Helpy</title>
+    <title>Thông tin đăng ký Chuyên gia | Helpy</title>
 
     <!-- Bootstrap -->
     <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                         <img src="images/img.jpg" alt="..." class="img-circle profile_img">
                     </div>
                     <div class="profile_info">
-                        <span>Welcome,</span>
+                        <span>Xin chào,</span>
                         <h2>John Doe</h2>
                     </div>
                 </div>
@@ -55,24 +55,24 @@
                 <!-- sidebar menu -->
                 <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
                     <div class="menu_section">
-                        <h3>General</h3>
+                        <h3>Quản lý</h3>
                         <ul class="nav side-menu">
-                            <li><a><i class="fa fa-users"></i> User Management <span class="fa fa-chevron-down"></span></a>
+                            <li><a><i class="fa fa-users"></i> Người dùng <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="users_list.html">Users List</a></li>
-                                    <li><a href="add_user.html">Add User</a></li>
+                                    <li><a href="users_list.html"> Danh sách Người dùng </a></li>
+                                    <li><a href="add_user.html"> Thêm Người dùng </a></li>
                                 </ul>
                             </li>
-                            <li><a><i class="fa fa-user-md"></i> Expert Management <span class="fa fa-chevron-down"></span></a>
+                            <li><a><i class="fa fa-user-md"></i> Chuyên gia <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="experts_list.html">Experts List</a></li>
-                                    <li><a href="registrations_list.html">Registrations List</a></li>
+                                    <li><a href="experts_list.html"> Danh sách Chuyên gia </a></li>
+                                    <li><a href="registrations_list.html"> Danh sách đăng ký </a></li>
                                 </ul>
                             </li>
-                            <li><a><i class="fa fa-ticket"></i> Request Management <span class="fa fa-chevron-down"></span></a>
+                            <li><a><i class="fa fa-ticket"></i> Yêu cầu <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
-                                    <li><a href="requests_list.html">Pending Requests List</a></li>
-                                    <li><a href="requests_list.html">Closed Requests List</a></li>
+                                    <li><a href="requests_list.html"> Yêu cầu chưa giải quyết</a></li>
+                                    <li><a href="requests_list.html"> Yêu cầu đã hoàn thành</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -114,15 +114,10 @@
                                 <span class=" fa fa-angle-down"></span>
                             </a>
                             <ul class="dropdown-menu dropdown-usermenu pull-right">
-                                <li><a href="javascript:;"> Profile</a></li>
-                                <li>
-                                    <a href="javascript:;">
-                                        <span class="badge bg-red pull-right">50%</span>
-                                        <span>Settings</span>
-                                    </a>
-                                </li>
-                                <li><a href="javascript:;">Help</a></li>
-                                <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                <li><a href="#"> Thông tin cá nhân </a></li>
+                                <li><a href="#"> Tùy chỉnh </a></li>
+                                <li><a href="#"> Giúp đỡ</a></li>
+                                <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Đăng xuất</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -140,18 +135,9 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="x_panel">
                             <div class="x_title">
-                                <h2>Registration Information</h2>
+                                <h2>Thông tin đăng ký Chuyên gia</h2>
                                 <ul class="nav navbar-right panel_toolbox">
                                     <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
-                                        <ul class="dropdown-menu" role="menu">
-                                            <li><a href="#">Settings 1</a>
-                                            </li>
-                                            <li><a href="#">Settings 2</a>
-                                            </li>
-                                        </ul>
                                     </li>
                                     <li><a class="close-link"><i class="fa fa-close"></i></a>
                                     </li>
@@ -184,15 +170,15 @@
                                             <table class="table">
                                                 <tbody>
                                                 <tr>
-                                                    <th style="width:30%">Fullname:</th>
+                                                    <th style="width:30%">Họ tên:</th>
                                                     <td>Garrett Winters</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Role:</th>
-                                                    <td>User</td>
+                                                    <th>Phân quyền:</th>
+                                                    <td>Người dùng</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Gender:</th>
+                                                    <th>Giới tính:</th>
                                                     <td>Female</td>
                                                 </tr>
                                                 </tbody>
@@ -208,31 +194,31 @@
                                 <div class="x_panel fixed_height_390">
                                     <div class="x_content">
 
-                                        <h3 class="name">Expertise Information</h3>
+                                        <h3 class="name">Thông tin Chuyên môn</h3>
 
                                         <div class="table-responsive" style="width: 80%; margin: auto">
                                             <table class="table">
                                                 <tbody>
                                                 <tr>
-                                                    <th style="width:30%">Field:</th>
+                                                    <th style="width:30%">Lĩnh vực:</th>
                                                     <td>Excel</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Introduction:</th>
-                                                    <td>Super</td>
+                                                    <th>Giới thiệu sơ lược:</th>
+                                                    <td>Chuyên gia</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Tax Number:</th>
+                                                    <th>Mã số thuế:</th>
                                                     <td>1111</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>Date Issued:</th>
+                                                    <th>Ngày đăng ký:</th>
                                                     <td>10/10/2017</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
-                                            <button type="submit" class="btn btn-success" style="float: right">Accept</button>
-                                            <button type="submit" class="btn btn-danger" style="float: right">Decline</button>
+                                            <button type="submit" class="btn btn-success" style="float: right">Chấp nhận</button>
+                                            <button type="submit" class="btn btn-danger" style="float: right">Từ chối</button>
 
                                         </div>
 
@@ -251,7 +237,7 @@
         <!-- footer content -->
         <footer>
             <div class="pull-right">
-                Helpy Web for Staff
+                Helpy Web for Staff - Developed by Helpy Team
             </div>
             <div class="clearfix"></div>
         </footer>
